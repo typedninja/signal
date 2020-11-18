@@ -1,0 +1,14 @@
+{
+  "inputFiles": ["./src"],
+  "mode": "file",
+  "out": "docs",
+  "plugin": [
+    "none"
+  ],
+  "exclude": [
+    "**/*+(.test|.spec|.e2e).ts"
+  ],
+  "excludeProtected": true,
+  "excludePrivate": true,
+  "excludeExternals": true
+}
