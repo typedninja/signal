@@ -1,6 +1,6 @@
 {
   "name": "@typedninja/signal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An awaitable signal",
   "author": "Typed Ninja <strongly@typed.ninja>",
   "license": "MIT",
