@@ -1,3 +1,27 @@
 language : node_js
 node_js :
  - stable
+install:
+  - yarn install
+jobs:
+  include:
+    - stage: Test
+      script:
+        - yarn test
+    - stage: Build
+      script:
+        - yarn build
+    - stage: Release
+      script:
+        - yarn build
+      deploy:
+        provider: npm
+        email: '$NPM_EMAIL'
+        api_key: '$NPM_TOKEN'
+        skip_cleanup: true
+        on:
+          tags: true
+branches:
+  only:
+    - main
+    - /^v[0-9]+.*$/
