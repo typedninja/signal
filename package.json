@@ -7,7 +7,7 @@
   "main": "dist/lib/index.cjs.js",
   "module": "dist/lib/index.es.js",
   "types": "dist/lib/index.d.ts",
-  "homepage": "https://typed.ninja/signal",
+  "homepage": "https://typed.ninja/signal/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/typedninja/signal.git"

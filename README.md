@@ -12,7 +12,7 @@ $ npm install --save @typedninja/signal
 
 ## Usage
 
-Also see the [API documentation](https://typed.ninja/signal).
+Also see the [API documentation](https://typed.ninja/signal/).
 
 ```typescript
 const signal = new Signal();
