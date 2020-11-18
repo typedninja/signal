@@ -2,6 +2,7 @@
   "inputFiles": ["./src"],
   "mode": "file",
   "out": "docs",
+  "gitRevision": "main",
   "plugin": [
     "none"
   ],
