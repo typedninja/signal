@@ -89,12 +89,6 @@
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
-							<h3>Properties</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="signal.html#raised" class="tsd-kind-icon">raised</a></li>
-							</ul>
-						</section>
-						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="signal.html#destroy" class="tsd-kind-icon">destroy</a></li>
@@ -118,25 +112,12 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in signal.ts:6</li>
+									<li>Defined in <a href="https://github.com/typedninja/signal/blob/ab8ddfc/src/lib/signal.ts#L6">signal.ts:6</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="signal.html" class="tsd-signature-type">Signal</a></h4>
 						</li>
 					</ul>
-				</section>
-			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="raised" class="tsd-anchor"></a>
-					<h3>raised</h3>
-					<div class="tsd-signature tsd-kind-icon">raised<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> = true</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in signal.ts:2</li>
-						</ul>
-					</aside>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
@@ -151,18 +132,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in signal.ts:63</li>
+									<li>Defined in <a href="https://github.com/typedninja/signal/blob/ab8ddfc/src/lib/signal.ts#L42">signal.ts:42</a></li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Destroys the signal</p>
-								</div>
-								<p>After this method has been called, the signal will reject all pending
-									callbacks, lock itself in a lowered state, and throw an error on any
-									attempt to use it. This is to prevent memory leaks from code still
-								trying to use the signal.</p>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -177,17 +149,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in signal.ts:26</li>
+									<li>Defined in <a href="https://github.com/typedninja/signal/blob/ab8ddfc/src/lib/signal.ts#L19">signal.ts:19</a></li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Raise the signal</p>
-								</div>
-								<p>The signal will behave like a resolved promise. This also means callbacks
-									provided while lowered will be run. If called on an already raised signal,
-								this does nothing.</p>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -202,16 +166,9 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in signal.ts:42</li>
+									<li>Defined in <a href="https://github.com/typedninja/signal/blob/ab8ddfc/src/lib/signal.ts#L29">signal.ts:29</a></li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Reset the signal</p>
-								</div>
-								<p>This will make the signal act as an unresolved promise. If called on an
-								already unraised signal, this does nothing.</p>
-							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
@@ -226,7 +183,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in signal.ts:12</li>
+									<li>Defined in <a href="https://github.com/typedninja/signal/blob/ab8ddfc/src/lib/signal.ts#L12">signal.ts:12</a></li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -271,9 +228,6 @@
 							<li class=" tsd-kind-constructor tsd-parent-kind-class">
 								<a href="signal.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="signal.html#raised" class="tsd-kind-icon">raised</a>
-							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="signal.html#destroy" class="tsd-kind-icon">destroy</a>
 							</li>
@@ -301,7 +255,6 @@
 		<div class="tsd-legend-group">
 			<ul class="tsd-legend">
 				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
-				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
 				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 		</div>
