@@ -1,5 +1,5 @@
 export class Signal implements PromiseLike<void> {
-  public raised = true;
+  private raised = true;
   private done = false;
   private promise!: PromiseLike<void>;
   private resolve!: Function;
