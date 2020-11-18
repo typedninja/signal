@@ -19,7 +19,6 @@
     "promise",
     "signal"
   ],
-  "private": true,
   "files": [
     "dist"
   ],
